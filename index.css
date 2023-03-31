@@ -1,0 +1,45 @@
+h1 {
+    text-align: center;
+  }
+  
+  #animal-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #animal-list li {
+    cursor: pointer;
+    padding: 5px 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  #animal-list li:hover {
+    background-color: #f9f9f9;
+  }
+  
+  #animal-details {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #animal-details img {
+    max-width: 300px;
+    max-height: 300px;
+    margin: 10px;
+  }
+  
+  #vote-btn {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  #vote-btn:hover {
+    background-color: #3e8e41;
+  }
